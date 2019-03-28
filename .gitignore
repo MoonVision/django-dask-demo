@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+.idea/
+dask-worker-space/
+worker-*/
+*.lock
+*.dirlock
