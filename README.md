@@ -1,5 +1,7 @@
 # django-dask-demo
 
+Source code that goes along with the article here: https://medium.com/moonvision/using-django-with-dask-for-task-processing-73f4b903bf64. See article for full explanation.
+
 ## Setup
 
 pip install -r requirements.txt
