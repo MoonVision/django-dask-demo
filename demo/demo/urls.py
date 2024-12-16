@@ -23,8 +23,8 @@ from daskmanager import views as dask_views
 from numbersexample import views as number_views
 
 router = routers.DefaultRouter()
-router.register(r'tasks', dask_views.DaskTaskViewSet, base_name='dasktask')
-router.register(r'numbers', number_views.NumberViewSet, base_name='number')
+router.register(r'tasks', dask_views.DaskTaskViewSet, basename='dasktask')
+router.register(r'numbers', number_views.NumberViewSet, basename='number')
 
 urlpatterns = [
     re_path('^', include(router.urls)),
